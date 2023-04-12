@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: block;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.header{
+width: 100%;
+background-color: aliceblue;
+font-size: larger;
+font-weight: 600;
+height: 10vh;
+font-size: 29px;
+padding-top: 50px;
+}
+.conteiner .result{
+   
+ height: 5vh;
+ font-size: 26px;
+ background-color: #fff;
+ width: 250px;
+ margin: 80px 80px  10px ;
+
+}
+.conteiner{
+    margin-left: 200px;
+    height: 30vh;
+    width: 50%;
+    display: block;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid blue;
+}
+.conteiner button{
+
+width: 100px;
+height: 30px;
+margin-top: 20px;
+font-size: 18px;
+}
+.conteiner .reduce{
+    background-color: green;
+}
+.conteiner .reset{
+    background-color: red;
+}
+.conteiner .increase{
+   background-color: greenyellow;
+}
