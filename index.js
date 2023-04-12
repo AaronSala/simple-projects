@@ -1,7 +1,7 @@
-//var result = document.getElementsByClassName('result');
+
 let count =0;
 var btns = document.querySelectorAll('.btn');
-// var result = document.getElementsByClassName('result')
+ var result = document.getElementsByClassName('result')
  var result=document.querySelector('#result');
 
  btns.forEach(function (btn) {
