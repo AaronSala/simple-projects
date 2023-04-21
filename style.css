@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    
+}
+.nav-header{
+    
+    display: flex;
+   padding: 20px;
+    align-items: center;
+    float: right;
+    width: 50%;
+    padding-right: 10px;
+}
+.nav-center{
+  
+    background-color: antiquewhite;
+    width: 100%;
+    height: 50px;
+   
+}
+.toogle hr{
+    
+    width: 20px;
+    color: black;
+    font-weight: 700;
+    
+    
+}
+.btn{
+    display:none ;
+      border: none;
+}
+#header a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+  
+}
+@media (max-width:577px) {
+#header a{
+    display: none;
+    margin-top: 10px;
+}
+.btn{
+    display: initial;
+}
+#header a{
+    align-items: center;
+    float: right;
+    
+    padding-right: 30px;
+}
+} 
+    
